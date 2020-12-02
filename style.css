@@ -27,6 +27,8 @@ body {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	transition: all ease-in-out 1000ms;
+	transform-style: preserve-3d;
 }
 
 .box h1 {
@@ -62,4 +64,8 @@ ul {
 
 .box li a:hover {
 	color: #b9b9b9;
+}
+
+.box-img:hover {
+	transform: rotateY(180deg);
 }
